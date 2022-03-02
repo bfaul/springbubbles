@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+div{
+	color: deepskyblue;
+}
+
+a{
+	color:white;
+}
+
+a:hover{
+	color:royalblue;
+}
+
+p{ 
+color: deepskyblue;
+}
+p:hover{
+	color: darkblue;
+	font-size: 32pt;
+}

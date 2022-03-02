@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<link href="project.css"> 
+	<style>
+		.static{ 
+	position:absolute;
+}
+
+.static:hover{ 
+opacity:0;
+}
+	</style>
+	<link href="project.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>project</title>
+</head>
+
+<body>
+	
+<div><p> Bubbles</p></div>
+<a onClick="myAudioFunction('A');"><img class="static" src="frozen.jpg" width= "800" height="439" alt="thing"></a>
+	<img class="active" src="pop.gif" alt="thing">
+
+ <script>
+     var aAudio = new Audio("bubble.mp3");
+     function myAudioFunction(letter) {
+             aAudio.play();
+}
+ </script>
+	
+
+</body>
+
+</html>
